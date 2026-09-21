@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Video Repair — YCO</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ Header ============ -->
+<header class="site-header">
+  <div class="site-header__left">
+    <button class="header-hamburger" id="hamburgerBtn" aria-label="menu"><img src="assets/YCO/icons/mb_nav.png" alt=""></button>
+    <a href="#" class="site-header__logo">
+      <img src="assets/YCO/logos/Logo.png" alt="YCO logo">
+    </a>
+    <nav class="main-nav">
+      <a class="main-nav__link" href="#">Product</a>
+      <a class="main-nav__link" href="#">Use Case</a>
+      <a class="main-nav__link" href="#">API</a>
+      <a class="main-nav__link" href="#">Pricing</a>
+    </nav>
+  </div>
+  <div class="site-header__right">
+    <a class="btn btn-primary btn-header" href="#">Log In / Sign Up</a>
+  </div>
+</header>
+
+<!-- ============ Mobile side menu ============ -->
+<div class="mobile-menu-overlay" id="mobileOverlay"></div>
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu__top">
+    <img src="assets/YCO/logos/mb_Logo.png" alt="YCO logo" class="mobile-menu__logo">
+    <button class="mobile-menu__close" id="mobileMenuClose" aria-label="close"><img src="assets/YCO/icons/mb_nav_close.png" alt=""></button>
+  </div>
+  <a class="mobile-menu__link" href="#">Log In / Sign Up</a>
+  <a class="mobile-menu__link" href="#">Product</a>
+  <a class="mobile-menu__link" href="#">Use Case</a>
+  <a class="mobile-menu__link" href="#">API</a>
+  <a class="mobile-menu__link" href="#">Pricing</a>
+</div>
+
+<main>
+
+  <!-- ============ Topbanner ============ -->
+  <section class="topbanner">
+    <div class="topbanner__media-group">
+      <div class="topbanner__media-placeholder media-placeholder">TOPBANNER VIDEO — placeholder</div>
+    </div>
+    <div class="topbanner__content">
+      <div class="topbanner__content-inner">
+        <h1>AI Video Repair</h1>
+        <p>AI Video Repair reads your video's real resolution and frame rate, then fixes blur, grain, choppy motion, and flat lighting in one pass. Compare before and after, then download.</p>
+        <a class="btn btn-primary btn-topbanner-cta" href="#">Try It Now</a>
+        <div class="app-badges">
+          <a href="#"><img src="assets/YCO/icons/apple.png" alt="Download on the App Store"></a>
+          <a href="#"><img src="assets/YCO/icons/google play.png" alt="Get it on Google Play"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Intro: How It Works ============ -->
+  <section class="section intro">
+    <div class="container intro__head">
+      <h2>How AI Video Repair Works</h2>
+      <p class="intro__sub">AI Video Repair applies up to four fixes in one pass: video super-resolution to rebuild detail, denoising to cut grain, frame interpolation to smooth choppy motion, and lighting correction for flat or backlit scenes. Only the fixes your footage actually needs run by default.</p>
+    </div>
+    <div class="container intro__body">
+      <div class="intro__text">
+        <h3 class="intro__feature-title">Enhance: Real Detail, Not Just a Sharper Blur</h3>
+        <p class="intro__feature-desc">Video super-resolution rebuilds missing texture instead of just sharpening edges. It turns on automatically at 1080p or below, stays off above that, and disables at 4K since there's nothing left to add. Best for soft phone or downloaded clips; skip it on pixelated screenshots, no tool can invent missing detail.</p>
+        <a class="btn btn-outline" href="#">Try It Now</a>
+      </div>
+      <div class="intro__media media-placeholder">FEATURE VIDEO — placeholder</div>
+    </div>
+  </section>
+
+  <!-- ============ How to Use (Steps) ============ -->
+  <section class="section steps-section">
+    <div class="container">
+      <h2 class="steps-title">Repair Your Video in 4 Steps</h2>
+      <p class="steps-sub">No editing software required, just upload, adjust, and download.</p>
+      <div class="steps steps--4">
+        <div class="step">
+          <div class="step__num"><span class="step__label">STEP</span><span class="step__digit">1</span></div>
+          <div class="step__icon media-placeholder">Step 1</div>
+          <h3 class="step__title">Upload Your Footage</h3>
+          <p class="step__desc">MP4, MOV, or M4V, up to 2GB, under 60 minutes, up to 4096px at up to 60fps. Tip: export in H.264, not H.265/HEVC, or the upload may bounce back.</p>
+        </div>
+        <div class="step">
+          <div class="step__num"><span class="step__label">STEP</span><span class="step__digit">2</span></div>
+          <div class="step__icon media-placeholder">Step 2</div>
+          <h3 class="step__title">Get Auto-Suggested Settings</h3>
+          <p class="step__desc">The panel reads your real resolution and frame rate and pre-sets Enhance and Frame Interpolation for you. Tip: a greyed-out toggle just means your source already exceeds that fix's useful range.</p>
+        </div>
+        <div class="step">
+          <div class="step__num"><span class="step__label">STEP</span><span class="step__digit">3</span></div>
+          <div class="step__icon media-placeholder">Step 3</div>
+          <h3 class="step__title">Fine-Tune, Then Repair</h3>
+          <p class="step__desc">Switch on Denoise or AI Lighting if needed, override any auto-set toggle, and watch the credit cost update live. Tip: turn on only what your footage needs, stacking every toggle raises the cost.</p>
+        </div>
+        <div class="step">
+          <div class="step__num"><span class="step__label">STEP</span><span class="step__digit">4</span></div>
+          <div class="step__icon media-placeholder">Step 4</div>
+          <h3 class="step__title">Compare, Then Save</h3>
+          <p class="step__desc">View the original and repaired clip side by side before you commit. Tip: if it needs another pass, adjust settings and repair again instead of starting over.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- ============ Every Fix, Automated (Zig-zag) ============ -->
+  <section class="section zigzag-section">
+    <div class="container">
+      <h2 class="zigzag-title">AI Video Repair: Every Fix, Automated</h2>
+      <p class="zigzag-sub">Traditional editing software leaves you manually adjusting sharpen and noise-reduction filters and exposure correction — sharpening just amplifies existing edges instead of rebuilding detail, and balancing noise by eye takes real time. AI Video Repair automates all of it in one pass, no manual tuning required.</p>
+
+      <div class="zigzag">
+        <div class="zigzag__row">
+          <div class="zigzag__text">
+            <span class="zigzag__num">
+              <span class="zigzag__num-big">01</span>
+              <span class="zigzag__num-small">03</span>
+              <svg class="zigzag__num-slash" viewBox="0 0 69 76.5" preserveAspectRatio="none"><line x1="69" y1="0" x2="0" y2="76.5" stroke="#292621" stroke-width="1.5"/></svg>
+            </span>
+            <h3>Video Denoise: Cut the Grain Without Losing Texture</h3>
+            <p>Removes grain from low-light or high-ISO footage. Off by default since not every clip needs it, and over-denoising can soften texture. Best for night or old camcorder footage; skip it on clean daylight shots.</p>
+            <a class="btn btn-primary" href="#">Try It Now</a>
+          </div>
+          <div class="zigzag__media media-placeholder">Video Denoise — placeholder</div>
+        </div>
+
+        <div class="zigzag__row">
+          <div class="zigzag__media media-placeholder">Frame Interpolation — placeholder</div>
+          <div class="zigzag__text">
+            <span class="zigzag__num">
+              <span class="zigzag__num-big">02</span>
+              <span class="zigzag__num-small">03</span>
+              <svg class="zigzag__num-slash" viewBox="0 0 69 76.5" preserveAspectRatio="none"><line x1="69" y1="0" x2="0" y2="76.5" stroke="#292621" stroke-width="1.5"/></svg>
+            </span>
+            <h3>Frame Interpolation: Smoother Motion at the Right Frame Rate</h3>
+            <p>Generates in-between frames to smooth choppy motion. Auto-enabled at 16fps or below, off between 16 and 60fps, disabled above 60fps or when fps can't be read. Best for old slideshow-style clips; skip it on fast action already shot at high frame rate, it can warp moving edges.</p>
+            <a class="btn btn-primary" href="#">Try It Now</a>
+          </div>
+        </div>
+
+        <div class="zigzag__row">
+          <div class="zigzag__text">
+            <span class="zigzag__num">
+              <span class="zigzag__num-big">03</span>
+              <span class="zigzag__num-small">03</span>
+              <svg class="zigzag__num-slash" viewBox="0 0 69 76.5" preserveAspectRatio="none"><line x1="69" y1="0" x2="0" y2="76.5" stroke="#292621" stroke-width="1.5"/></svg>
+            </span>
+            <h3>AI Lighting: Rescue Underexposed or Flat Footage</h3>
+            <p>An Off/Medium/High slider brightens backlit or flat footage without blowing out highlights. Best for dim interior or backlit clips; avoid High on footage that's already well-lit, it can wash out contrast.</p>
+            <a class="btn btn-primary" href="#">Try It Now</a>
+          </div>
+          <div class="zigzag__media media-placeholder">AI Lighting — placeholder</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- ============ FAQ ============ -->
+  <section class="section faq-section">
+    <div class="container">
+      <h2 class="faq-title">AI Video Repair FAQs</h2>
+      <div class="faq-list">
+        <div class="faq-item is-open">
+          <button class="faq-item__q">
+            <span>What exactly does AI Video Repair fix, and how?</span>
+            <img class="faq-item__chevron" src="assets/YCO/icons/Icon_open.svg" alt="">
+          </button>
+          <div class="faq-item__a"><p>Four fixes, each its own technique: Enhance rebuilds detail with super-resolution, Video Denoise removes grain, Frame Interpolation smooths choppy motion, and AI Lighting rebalances exposure. Run all four together or switch off what you don't need.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-item__q">
+            <span>How is this different from the Video Enhancer tool?</span>
+            <img class="faq-item__chevron" src="assets/YCO/icons/Icon_close.svg" alt="">
+          </button>
+          <div class="faq-item__a"><p>Video Enhancer only upscales. Video Repair uses that same technology as one of four fixes, bundled with denoise, frame interpolation, and lighting correction, auto-detecting which ones your footage needs.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-item__q">
+            <span>What video formats, sizes, and lengths are supported?</span>
+            <img class="faq-item__chevron" src="assets/YCO/icons/Icon_close.svg" alt="">
+          </button>
+          <div class="faq-item__a"><p>MP4, MOV, and M4V, up to 2GB, under 60 minutes, up to 4096px, and up to 240fps. Desktop supports H.264; re-export in H.264 if an H.265/HEVC upload is rejected.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-item__q">
+            <span>Does AI Video Repair cost credits?</span>
+            <img class="faq-item__chevron" src="assets/YCO/icons/Icon_close.svg" alt="">
+          </button>
+          <div class="faq-item__a"><p>Yes, each fix is billed by the second it runs, with a lower bundled rate when all four run together. The exact cost updates live on the Repair button before you commit.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-item__q">
+            <span>Can it fix extremely low-quality, corrupted, or heavily compressed video?</span>
+            <img class="faq-item__chevron" src="assets/YCO/icons/Icon_close.svg" alt="">
+          </button>
+          <div class="faq-item__a"><p>Not fully. It sharpens real detail, reduces real noise, and smooths real stutter, but can't invent detail a file never captured. Heavily pixelated or badly compressed footage will improve, not become native high-resolution.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-item__q">
+            <span>Can I improve video quality manually, without AI?</span>
+            <img class="faq-item__chevron" src="assets/YCO/icons/Icon_close.svg" alt="">
+          </button>
+          <div class="faq-item__a"><p>To a point. Editing software offers manual sharpen and noise-reduction filters and exposure correction, but sharpening just amplifies existing edges instead of rebuilding detail, and it takes time to balance by eye. AI Video Repair automates the same fixes in one pass.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-item__q">
+            <span>Why are some toggles already switched on, or greyed out?</span>
+            <img class="faq-item__chevron" src="assets/YCO/icons/Icon_close.svg" alt="">
+          </button>
+          <div class="faq-item__a"><p>The tool reads your real resolution and frame rate on upload. Enhance defaults on at 1080p or below; Frame Interpolation defaults on at 16fps or below and disables above 60fps. Denoise and AI Lighting always default off.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-item__q">
+            <span>Can I use AI Video Repair on my phone?</span>
+            <img class="faq-item__chevron" src="assets/YCO/icons/Icon_close.svg" alt="">
+          </button>
+          <div class="faq-item__a"><p>Not yet. This release is scoped to desktop and web only.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ Footer ============ -->
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div class="site-footer__brand">
+      <img src="assets/YCO/logos/footer_logo.png" alt="YCO logo" class="site-footer__logo">
+      <p class="site-footer__copyright">2026 © Perfect Corp. All Rights Reserved.</p>
+      <button class="lang-switch" id="langSwitchBtn">
+        <img src="assets/YCO/icons/ico_language.png" alt="">
+        <img class="lang-switch__chevron" src="assets/YCO/icons/Icon_close.svg" alt="">
+      </button>
+    </div>
+    <div class="site-footer__cols">
+      <div class="site-footer__col">
+        <p class="site-footer__col-title">Product</p>
+        <a href="#">Photo Enhance</a>
+        <a href="#">Object removal</a>
+        <a href="#">Remove background</a>
+        <a href="#">Colorize</a>
+        <a href="#">Lighting</a>
+      </div>
+      <div class="site-footer__col">
+        <p class="site-footer__col-title">Support</p>
+        <a href="#">Pricing</a>
+        <a href="#">Mobile download</a>
+        <a href="#">Blogs</a>
+        <a href="#">FAQ</a>
+      </div>
+      <div class="site-footer__col">
+        <p class="site-footer__col-title">Legal</p>
+        <a href="#">Privacy policy</a>
+        <a href="#">Terms of use</a>
+        <a href="#">Legal notice</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
