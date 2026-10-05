@@ -13,9 +13,10 @@
 <!-- ============ Header ============ -->
 <header class="site-header">
   <div class="site-header__left">
-    <button class="header-hamburger" id="hamburgerBtn" aria-label="menu"><img src="assets/YCO/icons/mb_nav.png" alt=""></button>
+    <button class="header-hamburger" id="hamburgerBtn" aria-label="menu"><img src="assets/YCO/logos/mb-symbol.svg" alt=""></button>
     <a href="#" class="site-header__logo">
-      <img src="assets/YCO/logos/Logo.png" alt="YCO logo">
+      <img class="logo-desktop" src="assets/YCO/logos/Logo.png" alt="YCO logo">
+      <img class="logo-mobile" src="assets/YCO/logos/mb_Logo.png" alt="YouCam Online Editor">
     </a>
     <nav class="main-nav">
       <a class="main-nav__link" href="#">Product</a>
@@ -25,6 +26,7 @@
     </nav>
   </div>
   <div class="site-header__right">
+    <a class="header-crown" href="#" aria-label="Pricing"><img src="assets/YCO/icons/crown.svg" alt=""></a>
     <a class="btn btn-primary btn-header" href="#">Log In / Sign Up</a>
   </div>
 </header>
@@ -33,10 +35,13 @@
 <div class="mobile-menu-overlay" id="mobileOverlay"></div>
 <div class="mobile-menu" id="mobileMenu">
   <div class="mobile-menu__top">
-    <img src="assets/YCO/logos/mb_Logo.png" alt="YCO logo" class="mobile-menu__logo">
     <button class="mobile-menu__close" id="mobileMenuClose" aria-label="close"><img src="assets/YCO/icons/mb_nav_close.png" alt=""></button>
+    <img src="assets/YCO/logos/mb_Logo.png" alt="YouCam Online Editor" class="mobile-menu__logo">
+    <div class="mobile-menu__top-right">
+      <a class="header-crown" href="#" aria-label="Pricing"><img src="assets/YCO/icons/crown.svg" alt=""></a>
+      <a class="btn btn-primary btn-header" href="#">Log In / Sign Up</a>
+    </div>
   </div>
-  <a class="mobile-menu__link" href="#">Log In / Sign Up</a>
   <a class="mobile-menu__link" href="#">Product</a>
   <a class="mobile-menu__link" href="#">Use Case</a>
   <a class="mobile-menu__link" href="#">API</a>
