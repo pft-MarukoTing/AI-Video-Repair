@@ -18,9 +18,9 @@ Zig-zag 每列有「Try It Now」＋「Download App」兩顆按鈕（跟 Figma�
 | Step 2 Auto-suggested settings | `step02.png` | AI-recommended video settings-2.png | 正式圖 |
 | Step 3 Fine-tune, then repair | `step03.png` | Compact video repair controls-3.png | 正式圖 |
 | Step 4 Compare, then save | `step04.png` | Before-and-after coastal video-4.png | 正式圖 |
-| Beyond Resolution 01 Video Denoise | `assets/page/video/video-denoise.mp4` | AME／Video Denoise_1.mp4 | AE 成品（12MB） |
+| Beyond Resolution 01 Video Denoise | `assets/page/video/video-denoise.mp4` | AME／Video Denoise.mp4（12:00 新版，5 秒） | AE 成品（6MB） |
 | Why Use 01 Restore Old Family Tapes | `assets/page/video/restore-old-family-tapes.mp4` | AME／Restore Old Family Tapes.mp4 | AE 成品（7MB） |
-| Beyond Resolution 02 Frame Interpolation | `assets/page/img/frame-interpolation.jpg` | Golden-hour skatepark carve.png | **暫放靜態圖**（等 AE 成品；備選：Golden Retriever Racing Through Sunlit Park.png） |
+| Beyond Resolution 02 Frame Interpolation | `assets/page/video/frame-interpolation.mp4` | AME／Frame Interpolation_1.mp4（最新版；舊版 Frame Interpolation.mp4 圖示是 lighting/denoise，沒採用） | AE 成品（8MB） |
 | Beyond Resolution 03 AI Lighting | `assets/page/img/ai-lighting.jpg` | Before AI_ Bright Sunset, Shadowed Faces.png | **暫放「Before」靜態圖**（等 before/after 成品） |
 | Why Use 02 Concert | `assets/page/img/concert.jpg` | Indie Band Concert in Vivid Detail.png | **暫放靜態圖**（Downloads 另有 concert 原始影片，等 AE 成品） |
 | Why Use 03 Live stream | `assets/page/img/livestream.jpg` | Clean gaming livestream moment.png | **暫放靜態圖**（備選：Restored cooking livestream in a bright kitchen.png） |
