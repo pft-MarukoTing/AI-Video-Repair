@@ -155,8 +155,8 @@ h1,h2,h3,p{margin:0;}
 .step__icon--models{
   background:none;border:none;display:flex;align-items:center;justify-content:center;gap:8px;
 }
-.step__icon--img{overflow:hidden;}
-.step__icon--img img{width:100%;height:100%;object-fit:cover;border-radius:12px;}
+.step__icon--img{overflow:visible;}
+.step__icon--img img{width:100%;height:100%;object-fit:contain;}
 .model-chip{background:#03ade2;color:#fff;font-size:11px;font-weight:600;padding:4px 8px;border-radius:8px;}
 .model-avatar{width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,var(--brand-grad-start),var(--brand-grad-end));}
 .step__title{font-size:20px;font-weight:700;line-height:26px;}
@@ -190,7 +190,8 @@ h1,h2,h3,p{margin:0;}
 .zigzag__text h3{font-size:38px;font-weight:700;line-height:1.2;}
 .zigzag__text p{font-size:22px;line-height:36px;}
 .zigzag__media{flex:1 1 auto;min-width:0;aspect-ratio:600/424;border-radius:24px;overflow:hidden;}
-.zigzag__media video{width:100%;height:100%;object-fit:cover;display:block;}
+.zigzag__media video,.zigzag__media img{width:100%;height:100%;object-fit:cover;display:block;}
+.zigzag__cta{display:flex;gap:10px;flex-wrap:wrap;}
 
 /* ===================================================================
    FAQ
@@ -310,7 +311,8 @@ h1,h2,h3,p{margin:0;}
   .zigzag__num-slash{width:32px;height:35px;left:20px;top:13px;}
   .zigzag__text h3{grid-column:2;grid-row:1;font-size:24px;}
   .zigzag__text p{grid-column:2;grid-row:2;font-size:16px;line-height:24px;}
-  .zigzag__text .btn{grid-column:2;grid-row:3;width:100%;}
+  .zigzag__cta{grid-column:2;grid-row:3;flex-direction:column;}
+  .zigzag__cta .btn{width:100%;}
 
   .faq-item__q{font-size:17px;line-height:24px;padding:14px 16px;}
   .faq-item__a p{padding:0 16px 20px 16px;font-size:15px;}
