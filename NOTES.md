@@ -21,8 +21,8 @@ Zig-zag 每列有「Try It Now」＋「Download App」兩顆按鈕（跟 Figma�
 | Beyond Resolution 01 Video Denoise | `assets/page/video/video-denoise.mp4` | AME／Video Denoise.mp4（12:00 新版，5 秒） | AE 成品（6MB） |
 | Why Use 01 Restore Old Family Tapes | `assets/page/video/restore-old-family-tapes.mp4` | AME／Restore Old Family Tapes_1.mp4（14:19 新版） | AE 成品（7MB） |
 | Beyond Resolution 02 Frame Interpolation | `assets/page/video/frame-interpolation.mp4` | AME／Frame Interpolation_1.mp4（最新版；舊版 Frame Interpolation.mp4 圖示是 lighting/denoise，沒採用） | AE 成品（8MB） |
-| Beyond Resolution 03 AI Lighting | `assets/page/img/ai-lighting.jpg` | Before AI_ Bright Sunset, Shadowed Faces.png | **暫放「Before」靜態圖**（等 before/after 成品） |
-| Why Use 02 Concert | `assets/page/img/concert.jpg` | Indie Band Concert in Vivid Detail.png | **暫放靜態圖**（Downloads 另有 concert 原始影片，等 AE 成品） |
+| Beyond Resolution 03 AI Lighting | `assets/page/video/ai-lighting.mp4` | AME／AI Lighting.mp4 | AE 成品（8MB） |
+| Why Use 02 Concert | `assets/page/video/relive-every-concert.mp4` | AME／Relive Every Concert.mp4 | AE 成品（8MB） |
 | Why Use 03 Live stream | `assets/page/img/livestream.jpg` | Clean gaming livestream moment.png | **暫放靜態圖**（備選：Restored cooking livestream in a bright kitchen.png） |
 
 仍是佔位框：Topbanner、Intro 功能示範（`AI_Video_repair_1200x848.mp4` 原本在 Downloads，後來不見了，沒有採用）。
