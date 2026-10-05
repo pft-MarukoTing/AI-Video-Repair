@@ -66,12 +66,15 @@ h1,h2,h3,p{margin:0;}
 .site-header__left{display:flex;align-items:center;gap:40px;}
 .site-header__logo{display:flex;align-items:center;}
 .logo-desktop{height:25px;width:auto;}
-.logo-mobile{display:none;width:89px;height:37px;}
-.header-hamburger{display:none;background:none;border:none;padding:0;width:32px;height:32px;align-items:center;justify-content:center;cursor:pointer;}
-.header-hamburger img{width:32px;height:32px;}
-.site-header__right{display:flex;align-items:center;gap:8px;}
-.header-crown{display:none;width:36px;height:36px;flex:0 0 36px;}
-.header-crown img{width:36px;height:36px;}
+.logo-mobile{display:none;width:32px;height:32px;}
+.header-hamburger{display:none;background:none;border:none;padding:0;width:24px;height:24px;align-items:center;justify-content:center;cursor:pointer;}
+.header-hamburger img{width:24px;height:24px;}
+.site-header__right{display:flex;align-items:center;gap:12px;}
+.header-crown,.header-wand{display:none;width:32px;height:32px;flex:0 0 32px;align-items:center;justify-content:center;}
+.header-crown img{width:32px;height:32px;}
+.header-wand{border:1px solid rgba(17,24,26,.2);border-radius:50%;}
+.header-wand img{width:16px;height:18px;}
+.lbl-short{display:none;}
 .main-nav{display:flex;align-items:center;}
 .main-nav__link{
   display:flex;align-items:center;height:42px;padding:0 16px;
@@ -94,9 +97,12 @@ h1,h2,h3,p{margin:0;}
 .mobile-menu.is-open{opacity:1;visibility:visible;transform:none;}
 .mobile-menu-overlay.is-open{display:block;}
 .mobile-menu__top{display:flex;align-items:center;gap:12px;height:64px;flex:0 0 64px;padding:0 16px;border-bottom:1px solid #d7d7d7;}
-.mobile-menu__logo{width:89px;height:37px;}
-.mobile-menu__top-right{margin-left:auto;display:flex;align-items:center;gap:8px;}
-.mobile-menu__top-right .header-crown{display:flex;}
+.mobile-menu__logo{width:32px;height:32px;}
+.mobile-menu__top-right{margin-left:auto;display:flex;align-items:center;gap:12px;}
+.mobile-menu__top-right .header-crown,.mobile-menu__top-right .header-wand{display:flex;}
+.mobile-menu__top-right .lbl-full{display:none;}
+.mobile-menu__top-right .lbl-short{display:inline;}
+.mobile-menu__top-right .btn-header{height:32px;padding:0 13px;font-size:14px;font-weight:600;}
 .mobile-menu__close{background:none;border:none;padding:0;width:32px;height:32px;display:flex;align-items:center;justify-content:center;cursor:pointer;}
 .mobile-menu__close img{width:24px;height:24px;}
 .mobile-menu__link{padding:14px 16px;font-size:16px;font-weight:500;}
@@ -254,8 +260,10 @@ h1,h2,h3,p{margin:0;}
   .logo-desktop{display:none;}
   .logo-mobile{display:block;}
   .header-hamburger{display:flex;}
-  .header-crown{display:flex;}
-  .btn-header{height:36px;padding:0 16px;font-size:14px;}
+  .header-crown,.header-wand{display:flex;}
+  .btn-header{height:32px;padding:0 13px;font-size:14px;font-weight:600;}
+  .lbl-full{display:none;}
+  .lbl-short{display:inline;}
 
   .topbanner__switcher{bottom:12px;right:12px;}
 
@@ -309,8 +317,15 @@ h1,h2,h3,p{margin:0;}
   .intro__text .btn{width:100%;}
 
   .steps-title,.zigzag-title,.faq-title{font-size:28px;}
-  .steps{grid-template-columns:1fr;gap:40px;justify-items:center;}
-  .step{width:100%;max-width:320px;}
+  .steps-title{font-size:30px;line-height:35px;text-align:left;}
+  .steps-sub{text-align:left;max-width:none;margin:12px 0 32px;}
+  .steps{grid-template-columns:1fr;gap:0;justify-items:stretch;}
+  .step{display:grid;grid-template-columns:122px 1fr;column-gap:20px;row-gap:8px;align-items:start;text-align:left;width:100%;max-width:none;}
+  .step__icon{grid-column:1;grid-row:1/4;width:122px;height:122px;}
+  .step__num{grid-column:2;grid-row:1;}
+  .step__title{grid-column:2;grid-row:2;}
+  .step__desc{grid-column:2;grid-row:3;}
+  .step:not(:last-child)::after{content:"";grid-column:1/-1;justify-self:center;width:31px;height:19px;margin:20px 0;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 31 19' fill='none'%3E%3Cpath d='M2 2l13.5 14L29 2' stroke='%2303ADE2' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat center/contain;}
 
   .zigzag{gap:48px;}
   .zigzag__text{
