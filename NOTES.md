@@ -20,9 +20,9 @@ Zig-zag 每列有「Try It Now」＋「Download App」兩顆按鈕（跟 Figma�
 | Step 4 Compare, then save | `step04.png` | Step04.png（10/6 重新做的版本，300×300，直接使用；Step02、Step03 於 13:28 又更新過） | 正式圖 |
 | Beyond Resolution 01 Video Denoise | `assets/page/video/video-denoise.mp4` | AME／Video Denoise_3.mp4（10/6 11:42） | AE 成品 |
 | Why Use 01 Restore Old Family Tapes | `assets/page/video/restore-old-family-tapes.mp4` | AME／Restore Old Family Tapes_2.mp4（10/6 09:26 新版） | AE 成品 |
-| Beyond Resolution 02 Frame Interpolation | `assets/page/video/frame-interpolation.mp4` | AME／Frame Interpolation_2.mp4（10/6 09:26 新版） | AE 成品 |
-| Beyond Resolution 03 AI Lighting | `assets/page/video/ai-lighting.mp4` | AME／AI Lighting_2.mp4（10/6 09:26 新版） | AE 成品 |
-| Why Use 02 Concert | `assets/page/video/relive-every-concert.mp4` | AME／Relive Every Concert_1.mp4（10/6 09:26 新版） | AE 成品 |
+| Beyond Resolution 02 Frame Interpolation | `assets/page/video/frame-interpolation.mp4` | AME／Frame Interpolation.mp4（10/6 15:34 新版） | AE 成品 |
+| Beyond Resolution 03 AI Lighting | `assets/page/video/ai-lighting.mp4` | AME／AI Lighting.mp4（10/6 15:34 新版） | AE 成品 |
+| Why Use 02 Concert | `assets/page/video/relive-every-concert.mp4` | AME／Relive Every Concert.mp4（10/6 15:34 新版） | AE 成品 |
 | Intro 功能示範 Turn Old, Dark, Choppy Clips… | `assets/page/video/smooth-4k-quality-video.mp4` | AME／Smooth 4K-Quality Video_1.mp4（10/6 11:44） | AE 成品 |
 | Why Use 03 Live stream | `assets/page/img/live-stream.jpg` | Live Stream (0-00-02-06).jpg（10/6 15:07，1200×848，左右對比靜態圖，有 Before/After 標籤） | **圖片**（依指示這一格不用影片） |
 | Topbanner | `assets/page/video/top-banner.mp4` | AME／top-banner_2.mp4（10/6 11:59，2880×1254，10MB） | AE 成品；**沒有手機版素材**，手機/平板暫時裁左側（object-position 20%） |
