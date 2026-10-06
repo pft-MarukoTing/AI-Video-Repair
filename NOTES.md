@@ -24,7 +24,7 @@ Zig-zag 每列有「Try It Now」＋「Download App」兩顆按鈕（跟 Figma�
 | Beyond Resolution 03 AI Lighting | `assets/page/video/ai-lighting.mp4` | AME／AI Lighting_2.mp4（10/6 09:26 新版） | AE 成品 |
 | Why Use 02 Concert | `assets/page/video/relive-every-concert.mp4` | AME／Relive Every Concert_1.mp4（10/6 09:26 新版） | AE 成品 |
 | Intro 功能示範 Turn Old, Dark, Choppy Clips… | `assets/page/video/smooth-4k-quality-video.mp4` | AME／Smooth 4K-Quality Video_1.mp4（10/6 11:44） | AE 成品 |
-| Why Use 03 Live stream | `assets/page/img/live-stream.jpg` | Live Stream (0-00-02-06)_1.jpg（10/6 15:00，1200×848，左右對比靜態圖） | **圖片**（依指示這一格不用影片） |
+| Why Use 03 Live stream | `assets/page/img/live-stream.jpg` | Live Stream (0-00-02-06).jpg（10/6 15:07，1200×848，左右對比靜態圖，有 Before/After 標籤） | **圖片**（依指示這一格不用影片） |
 | Topbanner | `assets/page/video/top-banner.mp4` | AME／top-banner_2.mp4（10/6 11:59，2880×1254，10MB） | AE 成品；**沒有手機版素材**，手機/平板暫時裁左側（object-position 20%） |
 
 全部區塊都已有素材。
