@@ -18,14 +18,15 @@ Zig-zag 每列有「Try It Now」＋「Download App」兩顆按鈕（跟 Figma�
 | Step 2 Auto-suggested settings | `step02.png` | Sky Blue Interface Recolor-3.png（1080p/30fps 那張；檔名編號 -3 但內容是 Step 2） | 正式圖 |
 | Step 3 Fine-tune, then repair | `step03.png` | Sky blue UI accent recolor-2.png（Denoise/AI Lighting 那張；檔名編號 -2 但內容是 Step 3） | 正式圖 |
 | Step 4 Compare, then save | `step04.png` | Sky Blue UI Accents-4.png | 正式圖 |
-| Beyond Resolution 01 Video Denoise | `assets/page/video/video-denoise.mp4` | AME／Video Denoise.mp4（12:00 新版，5 秒） | AE 成品（6MB） |
-| Why Use 01 Restore Old Family Tapes | `assets/page/video/restore-old-family-tapes.mp4` | AME／Restore Old Family Tapes_1.mp4（14:19 新版） | AE 成品（7MB） |
-| Beyond Resolution 02 Frame Interpolation | `assets/page/video/frame-interpolation.mp4` | AME／Frame Interpolation_1.mp4（最新版；舊版 Frame Interpolation.mp4 圖示是 lighting/denoise，沒採用） | AE 成品（8MB） |
-| Beyond Resolution 03 AI Lighting | `assets/page/video/ai-lighting.mp4` | AME／AI Lighting.mp4 | AE 成品（8MB） |
-| Why Use 02 Concert | `assets/page/video/relive-every-concert.mp4` | AME／Relive Every Concert.mp4 | AE 成品（8MB） |
+| Beyond Resolution 01 Video Denoise | `assets/page/video/video-denoise.mp4` | AME／Video Denoise_2.mp4（10/6 09:26 新版） | AE 成品 |
+| Why Use 01 Restore Old Family Tapes | `assets/page/video/restore-old-family-tapes.mp4` | AME／Restore Old Family Tapes_2.mp4（10/6 09:26 新版） | AE 成品 |
+| Beyond Resolution 02 Frame Interpolation | `assets/page/video/frame-interpolation.mp4` | AME／Frame Interpolation_2.mp4（10/6 09:26 新版） | AE 成品 |
+| Beyond Resolution 03 AI Lighting | `assets/page/video/ai-lighting.mp4` | AME／AI Lighting_2.mp4（10/6 09:26 新版） | AE 成品 |
+| Why Use 02 Concert | `assets/page/video/relive-every-concert.mp4` | AME／Relive Every Concert_1.mp4（10/6 09:26 新版） | AE 成品 |
+| Intro 功能示範 Turn Old, Dark, Choppy Clips… | `assets/page/video/smooth-4k-quality-video.mp4` | AME／Smooth 4K-Quality Video.mp4 | AE 成品 |
 | Why Use 03 Live stream | `assets/page/img/livestream.jpg` | Clean gaming livestream moment.png | **暫放靜態圖**（備選：Restored cooking livestream in a bright kitchen.png） |
 
-仍是佔位框：Topbanner、Intro 功能示範（`AI_Video_repair_1200x848.mp4` 原本在 Downloads，後來不見了，沒有採用）。
+仍是佔位框：Topbanner。Why Use 03 Live stream 還沒有成品，暫放靜態圖。
 
 ## 前端互動範圍
 
