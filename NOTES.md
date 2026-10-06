@@ -14,18 +14,18 @@ Zig-zag 每列有「Try It Now」＋「Download App」兩顆按鈕（跟 Figma�
 
 | 區塊 | 檔案 | 來源 | 狀態 |
 | --- | --- | --- | --- |
-| Step 1 Upload your footage | `assets/page/step/step01.png` | Upload footage with coastal video thumbnail-1.png（10/6 扁平版，裁掉透明邊後置中成正方形） | 正式圖 |
-| Step 2 Auto-suggested settings | `step02.png` | Clean flat blue UI card-5.png（1080p/30fps；同內容還有 -2、-7 兩個版本） | 正式圖（版本是我選的） |
-| Step 3 Fine-tune, then repair | `step03.png` | Clean flat blue control card-6.png（Denoise/AI Lighting；同內容還有 -3、-8、-9 三個版本） | 正式圖（版本是我選的） |
-| Step 4 Compare, then save | `step04.png` | Before-and-after coastal portrait comparison-4.png | 正式圖 |
-| Beyond Resolution 01 Video Denoise | `assets/page/video/video-denoise.mp4` | AME／Video Denoise_2.mp4（10/6 09:26 新版） | AE 成品 |
+| Step 1 Upload your footage | `assets/page/step/step01.png` | Step01.png（10/6 13:05 重新做的版本，300×300，直接使用） | 正式圖 |
+| Step 2 Auto-suggested settings | `step02.png` | Step02.png（10/6 13:05 重新做的版本，300×300，直接使用） | 正式圖 |
+| Step 3 Fine-tune, then repair | `step03.png` | Step03.png（10/6 13:05 重新做的版本，300×300，直接使用） | 正式圖 |
+| Step 4 Compare, then save | `step04.png` | Step04.png（10/6 13:05 重新做的版本，300×300，直接使用） | 正式圖 |
+| Beyond Resolution 01 Video Denoise | `assets/page/video/video-denoise.mp4` | AME／Video Denoise_3.mp4（10/6 11:42） | AE 成品 |
 | Why Use 01 Restore Old Family Tapes | `assets/page/video/restore-old-family-tapes.mp4` | AME／Restore Old Family Tapes_2.mp4（10/6 09:26 新版） | AE 成品 |
 | Beyond Resolution 02 Frame Interpolation | `assets/page/video/frame-interpolation.mp4` | AME／Frame Interpolation_2.mp4（10/6 09:26 新版） | AE 成品 |
 | Beyond Resolution 03 AI Lighting | `assets/page/video/ai-lighting.mp4` | AME／AI Lighting_2.mp4（10/6 09:26 新版） | AE 成品 |
 | Why Use 02 Concert | `assets/page/video/relive-every-concert.mp4` | AME／Relive Every Concert_1.mp4（10/6 09:26 新版） | AE 成品 |
-| Intro 功能示範 Turn Old, Dark, Choppy Clips… | `assets/page/video/smooth-4k-quality-video.mp4` | AME／Smooth 4K-Quality Video.mp4 | AE 成品 |
+| Intro 功能示範 Turn Old, Dark, Choppy Clips… | `assets/page/video/smooth-4k-quality-video.mp4` | AME／Smooth 4K-Quality Video_1.mp4（10/6 11:44） | AE 成品 |
 | Why Use 03 Live stream | `assets/page/video/live-stream.mp4` | AME／Live Stream_1.mp4 | AE 成品 |
-| Topbanner | `assets/page/video/top-banner.mp4` | AME／top-banner.mp4（2880×1254，10MB） | AE 成品；**沒有手機版素材**，手機/平板暫時裁左側（object-position 20%） |
+| Topbanner | `assets/page/video/top-banner.mp4` | AME／top-banner_2.mp4（10/6 11:59，2880×1254，10MB） | AE 成品；**沒有手機版素材**，手機/平板暫時裁左側（object-position 20%） |
 
 全部區塊都已有素材。
 
