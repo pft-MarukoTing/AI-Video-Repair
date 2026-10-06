@@ -283,7 +283,7 @@ h1,h2,h3,p{margin:0;}
 
   .intro__body{flex-direction:column;align-items:stretch;}
   .intro__text{flex:none;width:100%;}
-  .intro__media{width:100%;aspect-ratio:673/380;}
+  .intro__media{width:100%;aspect-ratio:600/424;}
 
   .steps{grid-template-columns:repeat(2,1fr);gap:24px;}
 
