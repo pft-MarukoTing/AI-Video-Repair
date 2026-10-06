@@ -14,10 +14,10 @@ Zig-zag 每列有「Try It Now」＋「Download App」兩顆按鈕（跟 Figma�
 
 | 區塊 | 檔案 | 來源 | 狀態 |
 | --- | --- | --- | --- |
-| Step 1 Upload your footage | `assets/page/step/step01.png` | Step01.png（10/6 13:05 重新做的版本，300×300，直接使用） | 正式圖 |
-| Step 2 Auto-suggested settings | `step02.png` | Step02.png（10/6 13:05 重新做的版本，300×300，直接使用） | 正式圖 |
-| Step 3 Fine-tune, then repair | `step03.png` | Step03.png（10/6 13:05 重新做的版本，300×300，直接使用） | 正式圖 |
-| Step 4 Compare, then save | `step04.png` | Step04.png（10/6 13:05 重新做的版本，300×300，直接使用） | 正式圖 |
+| Step 1 Upload your footage | `assets/page/step/step01.png` | Step01.png（10/6 重新做的版本，300×300，直接使用；Step02、Step03 於 13:28 又更新過） | 正式圖 |
+| Step 2 Auto-suggested settings | `step02.png` | Step02.png（10/6 重新做的版本，300×300，直接使用；Step02、Step03 於 13:28 又更新過） | 正式圖 |
+| Step 3 Fine-tune, then repair | `step03.png` | Step03.png（10/6 重新做的版本，300×300，直接使用；Step02、Step03 於 13:28 又更新過） | 正式圖 |
+| Step 4 Compare, then save | `step04.png` | Step04.png（10/6 重新做的版本，300×300，直接使用；Step02、Step03 於 13:28 又更新過） | 正式圖 |
 | Beyond Resolution 01 Video Denoise | `assets/page/video/video-denoise.mp4` | AME／Video Denoise_3.mp4（10/6 11:42） | AE 成品 |
 | Why Use 01 Restore Old Family Tapes | `assets/page/video/restore-old-family-tapes.mp4` | AME／Restore Old Family Tapes_2.mp4（10/6 09:26 新版） | AE 成品 |
 | Beyond Resolution 02 Frame Interpolation | `assets/page/video/frame-interpolation.mp4` | AME／Frame Interpolation_2.mp4（10/6 09:26 新版） | AE 成品 |
