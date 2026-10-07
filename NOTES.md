@@ -21,7 +21,7 @@ Zig-zag 每列有「Try It Now」＋「Download App」兩顆按鈕（跟 Figma�
 | Beyond Resolution 01 Video Denoise | `assets/page/video/video-denoise.mp4` | AME／Video Denoise_2.mp4（10/7 15:36 新版；ffmpeg crf 28 壓縮） | AE 成品 |
 | Why Use 01 Restore Old Family Tapes | `assets/page/video/restore-old-family-tapes.mp4` | AME／Restore Old Family Tapes_2.mp4（10/7 15:36 新版；ffmpeg crf 28 壓縮） | AE 成品 |
 | Beyond Resolution 02 Frame Interpolation | `assets/page/video/frame-interpolation.mp4` | AME／Frame Interpolation.mp4（10/7 16:03 新版；ffmpeg crf 28 壓縮） | AE 成品 |
-| Beyond Resolution 03 AI Lighting | `assets/page/video/ai-lighting.mp4` | AME／AI Lighting_6.mp4（10/6 16:57 新版；ffmpeg crf 28 壓縮） | AE 成品 |
+| Beyond Resolution 03 AI Lighting | `assets/page/video/ai-lighting.mp4` | AME／AI Lighting.mp4（10/7 16:09 新版；ffmpeg crf 28 壓縮） | AE 成品 |
 | Why Use 02 Concert | `assets/page/video/relive-every-concert.mp4` | AME／Relive Every Concert_4.mp4（10/7 15:36 新版；ffmpeg crf 28 壓縮） | AE 成品 |
 | Intro 功能示範 Turn Old, Dark, Choppy Clips… | `assets/page/video/smooth-4k-quality-video.mp4` | AME／Smooth 4K-Quality Video_2.mp4（10/7 15:36 新版；ffmpeg crf 28 壓縮） | AE 成品 |
 | Why Use 03 Live stream | `assets/page/img/live-stream.jpg` | AME／Live Stream.png（10/7 16:04 更新：去掉「Before」標籤後面殘留的淡色大寫 BEFORE 字影；1200×848，子母畫面：小的 Before＋大的 After）；PNG 有透明角落，已壓平在白底存成 JPG（157KB） | **圖片**（依指示這一格不用影片） |
