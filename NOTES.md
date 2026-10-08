@@ -25,7 +25,7 @@ Zig-zag 每列有「Try It Now」＋「Download App」兩顆按鈕（跟 Figma�
 | Why Use 02 Concert | `assets/page/video/relive-every-concert.mp4` | AME／Relive Every Concert_4.mp4（10/7 15:36 新版；ffmpeg crf 28 壓縮） | AE 成品 |
 | Intro 功能示範 Turn Old, Dark, Choppy Clips… | `assets/page/video/smooth-4k-quality-video.mp4` | AME／Smooth 4K-Quality Video_2.mp4（10/7 15:36 新版；ffmpeg crf 28 壓縮） | AE 成品 |
 | Why Use 03 Live stream | `assets/page/img/live-stream.jpg` | AME／Live Stream.png（10/7 16:22 更新：Before 小圖換成較寬的取景（人物縮小、露出更多背景）；1200×848，子母畫面：小的 Before＋大的 After）；PNG 有透明角落，已壓平在白底存成 JPG（162KB） | **圖片**（依指示這一格不用影片） |
-| Topbanner | `assets/page/video/top-banner.mp4` | AME／top-banner_9.mp4（10/7 18:20 新版；ffmpeg crf 28 壓縮）| AE 成品；手機／平板（≤1024px）改用 `top-banner-mobile.mp4`（AME／top-banner -mb.mp4，10/8 08:27；828×584，ffmpeg crf 28 壓縮），由 script.js 依視窗寬度切換 |
+| Topbanner | `assets/page/video/top-banner.mp4` | AME／top-banner_9.mp4（10/7 18:20 新版；ffmpeg crf 28 壓縮）| AE 成品；手機／平板（≤1024px）改用 `top-banner-mobile.mp4`（AME／top-banner -mb_1.mp4，10/8 09:11；828×584，ffmpeg crf 28 壓縮），由 script.js 依視窗寬度切換 |
 
 全部區塊都已有素材。
 
