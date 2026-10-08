@@ -266,8 +266,8 @@ h1,h2,h3,p{margin:0;}
   .lbl-short{display:inline;}
 
   .topbanner{background:none;}
-  .topbanner__media-group{aspect-ratio:3/2;}
-  .topbanner__media{object-position:20% center;}
+  .topbanner__media-group{aspect-ratio:828/584;}
+  .topbanner__media{object-position:center;}
   .topbanner__content{
     position:static;width:100%;max-width:100%;height:auto;
     padding:32px 48px;background:#edf8f9;justify-content:flex-start;

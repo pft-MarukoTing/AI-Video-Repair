@@ -36,6 +36,24 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
+  /* ---- Topbanner: swap in the mobile cut at <=1024px ---- */
+  var tbVideo = document.querySelector('.topbanner__media[data-src-desktop]');
+  if (tbVideo) {
+    var tbMq = window.matchMedia('(max-width: 1024px)');
+    var tbApply = function () {
+      var src = tbMq.matches ? tbVideo.dataset.srcMobile : tbVideo.dataset.srcDesktop;
+      if (tbVideo.getAttribute('src') !== src) {
+        tbVideo.setAttribute('src', src);
+        tbVideo.load();
+        tbVideo.play().catch(function () {});
+      }
+    };
+    tbApply();
+    if (tbMq.addEventListener) tbMq.addEventListener('change', tbApply);
+    else tbMq.addListener(tbApply);
+  }
+
+
   /* ---- Footer language switch (front-end toggle only) ---- */
   var langBtn = document.getElementById('langSwitchBtn');
   if (langBtn) {
